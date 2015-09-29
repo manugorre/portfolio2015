@@ -1,0 +1,10 @@
+@-webkit-keyframes move {
+    0%   {transform: scale(1);}
+		20%	 {transform: scale(0.9) translateX(0px);}
+    100% {transform: scale(0.9) translateX(-87px);}
+}
+@-webkit-keyframes moveRight {
+    0%   {transform: scale(0.9) translateX(-87px);}
+		20%	 {transform: scale(0.9) translateX(0px);}
+    100% {transform: scale(1) translateX(0px);}
+}

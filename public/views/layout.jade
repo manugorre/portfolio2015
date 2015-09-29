@@ -1,0 +1,21 @@
+doctype
+html(class='#{deviceType}')
+  head
+    title Emmanuel Gorre portfolio2k15
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+    link(rel='stylesheet', href='/stylesheets/app.css')
+    body
+      !=body
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/vendor.js')
+    script(src='/javascripts/app.js')
+    script require('javascripts/home').init();
+    //script require('javascripts/analytics').init();
+    //- -if (requireGameInit)
+    //-   script require('javascripts/game').init();
+    //- -if (mobile)
+    //-   p Quelque chose se cache le retrouveras-tu ?
+    //- div(class="french")
+
+    if (manager === true)
+      script require('javascripts/manager').init();

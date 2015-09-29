@@ -1,0 +1,20 @@
+h3(class="muted") Demo Node.js
+hr
+- var authorised = false
+  #user
+    if authorised
+      h2 Logged
+    else
+      form(method='post' action='/login')
+        input(
+          type='email'
+          name='email'
+        )
+        input(
+          type='password'
+          name='password'
+        )
+        input(
+          type='submit'
+          name='submit'
+        )

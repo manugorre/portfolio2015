@@ -1,0 +1,11 @@
+#global
+  .content.container
+    h1(class="title" data-sr="")= data.title
+    h2(class="subtitle" data-sr="wait 0.5s")= data.subtitle
+    //-if (!isMobile)
+    //  p= data.text
+    span(class="console none")= data.console
+    div(class="flag" data-sr="wait 1s enter bottom hustle 10px")
+  -if (isMobile)
+    .canvasContent
+    
