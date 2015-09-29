@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/manugorre/portfolio2015.svg)](https://travis-ci.org/manugorre/portfolio2015)
+
 # Documentation portfolio2K15
 
 ## Introduction
